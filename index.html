@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ShootGuru</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images\shooting-star.png">
+
+
+  <!-- Font-awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+
+
+
+<body>
+
+  <div class="mynav">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">ShootGuru <img class="logo" src="images\shooting-star.png" alt="image.jpg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="subscribe.html">Plans</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item login">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <section id="title">
+    <div class="row">
+      <div class="col-lg-12 title-bg">
+        <h1 class="title-head">Professional sales tools and stunning client galleries for photographers</h1>
+        <a href="getstarted.html"><button type="button" class="btn btn-outline-dark btn-lg">Get Started</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="coverPhoto">
+    <div class="cover-image">
+      <img src="images/hero.png" alt="cover.jpg" width="85%" height="40%">
+
+    </div>
+
+  </section>
+
+  <section id="services">
+    <div class="container.fluid">
+      <div class="row">
+        <div class="services-item col-lg-4">
+          <i class="far fa-images fa-5x highlight"></i>
+          <h3 class="services-heading">Online Photo Proofing</h3>
+          <p class="services-para">Client labeling for album selection, retouching, and more</p>
+        </div>
+        <div class="services-item col-lg-4">
+          <i class="fas fa-paint-brush fa-5x highlight"></i>
+          <h3 class="services-heading">Your Studio Branding</h3>
+          <p class="services-para">Galleries customized with your brand's logo and colors</p>
+        </div>
+        <div class="services-item col-lg-4">
+          <i class="fas fa-shield-alt fa-5x highlight"></i>
+          <h3 class="services-heading">Online Photo Security and Control</h3>
+          <p class="services-para">Password protection and gallery expiration dates</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tryit">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="tryit-heading">Try it free for 30 days</h3>
+        <p>No credit card required</p>
+        <a href="subscribe.html"><button type="button" class="btn btn-outline-light btn-lg btn-tryit">Subscribe</button></a>
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3000">
+          <h2>"We’ve fallen in love with ShootGuru and how easy it is to customize to our unique sales model."</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <h2 class="testimonial-text">"ShootGuru has changed the game in showing and selling my photographs."</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <h2 class="testimonial-text">"ShootGuru was an easy transition with their easy interface and great customer service."</h2>
+          <img class="testimonial-image" src="images/davis.png" alt="lady-profile">
+          <em>Davis, Texas</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <footer id="footer">
+    <i class="footer-icons fab fa-twitter highlight"></i>
+    <i class="footer-icons fab fa-facebook-f highlight"></i>
+    <i class="footer-icons fab fa-instagram highlight"></i>
+    <i class="footer-icons fas fa-envelope highlight"></i>
+    <p class="footer-para">© Copyright 2019 ShootGuru</p>
+  </footer>
+
+
+
+
+
+
+</body>
+
+</html>
